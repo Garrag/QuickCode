@@ -1,0 +1,284 @@
+Quick-Cocos2dx-Community C++ support ready.
+
+------------------------------------------------
+
+LOAD LUA FILE: F:/QuickCode/el/src/main.lua
+
+------------------------------------------------
+
+[LUA-print] ===========================================================
+
+[LUA-print]               LOAD QUICK FRAMEWORK
+
+[LUA-print] ===========================================================
+
+[LUA-print] [INFO] 
+
+[LUA-print] [INFO] # DEBUG                        = 1
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # device.platform              = windows
+
+[LUA-print] [INFO] # device.model                 = unknown
+
+[LUA-print] [INFO] # device.language              = cn
+
+[LUA-print] [INFO] # device.writablePath          = F:\QuickCode\el\
+
+[LUA-print] [INFO] # device.directorySeparator    = \
+
+[LUA-print] [INFO] # device.pathSeparator         = ;
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 480.00
+
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
+
+[LUA-print] [INFO] # display.widthInPixels        = 960.00
+
+[LUA-print] [INFO] # display.heightInPixels       = 640.00
+
+[LUA-print] [INFO] # display.contentScaleFactor   = 2.00
+
+[LUA-print] [INFO] # display.width                = 480.00
+
+[LUA-print] [INFO] # display.height               = 320.00
+
+[LUA-print] [INFO] # display.cx                   = 240.00
+
+[LUA-print] [INFO] # display.cy                   = 160.00
+
+[LUA-print] [INFO] # display.left                 = 0.00
+
+[LUA-print] [INFO] # display.right                = 480.00
+
+[LUA-print] [INFO] # display.top                  = 320.00
+
+[LUA-print] [INFO] # display.bottom               = 0.00
+
+[LUA-print] [INFO] # display.c_left               = -240.00
+
+[LUA-print] [INFO] # display.c_right              = 240.00
+
+[LUA-print] [INFO] # display.c_top                = 160.00
+
+[LUA-print] [INFO] # display.c_bottom             = -160.00
+
+[LUA-print] [INFO] #
+
+[LUA-print] 转盘状态变更 none to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from decelerating to decelerating
+
+[LUA-print] [ERR] event run inappropriate in current state decelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] userdata: 0x0a916540 [StateMachine] ERROR: error INVALID_TRANSITION_ERROR, event run, from accelerating to accelerating
+
+[LUA-print] [ERR] event run inappropriate in current state accelerating
+
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/components/behavior/StateMachine..."]:318: in function 'onError_'
+	[string "framework/cc/components/behavior/StateMachine..."]:158: in function 'doEvent'
+	[string "F:/QuickCode/el/src/app/widget/TurnacleWidget..."]:24: in function 'listener_'
+	[string "framework/cocos2dx/NodeEx.lua"]:428: in function <[string "framework/cocos2dx/NodeEx.lua"]:382>
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
+[LUA-print] 转盘状态变更 accelerating to uniforming
+
+[LUA-print] 转盘状态变更 uniforming to decelerating
+
+[LUA-print] 转盘状态变更 decelerating to stop
+
+[LUA-print] 转盘状态变更 stop to accelerating
+
